@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+
+}
+.content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#btn1{
+   border: none;
+   width: 100px;
+   height: 50px;
+   border-radius: 10px;
+   font-size: 1rem;
+   background-color: hwb(84 0% 30% / 1.098);
+   transition: all 0.9s ease;
+   cursor: pointer;
+}
+#btn1:hover{
+    background-color: hwb(84 0% 10% / 0.598);
+}
+#btn2{
+   border: none;
+   width: 100px;
+   height: 50px;
+   border-radius: 10px;
+   font-size: 1rem;
+   background-color: hsla(207, 69%, 44%, 0.628);
+   transition: all 0.9s ease;
+   cursor: pointer;
+}
+#btn2:hover{
+    background-color: hsla(207, 69%, 64%, 0.628)
+}
+#btn3{
+   border: none;
+   width: 100px;
+   height: 50px;
+   border-radius: 10px;
+   font-size: 1rem;
+   background-color: hsla(0, 77%, 47%, 0.687);
+   transition: all 0.9s ease;
+   cursor: pointer;
+}
+#btn3:hover{
+    background-color:  hsla(0, 77%, 57%, 0.687);
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+    <div class="nav-bar">
+        <div class="first">
+            <h1 style="border: 1px solid white;border-radius: 100%;width: 70px;height: 70px;display: flex;
+            justify-content: center;align-items: center;">TM</h1>
+        </div>
+        <span class="list">
+            <ul class="unordered" style="list-style-type: none;font-size: 20px;">
+                <li class="options" style="width: 100px;height: 50px;font-size: 15px;">Your Tasks</li>
+                <li class="options" style="width: 100px;height: 50px;">Unfinished</li>
+                <li class="options" style="width: 100px;height: 50px;">Finished</li>
+                <li class="options" style="width: 100px;height: 50px;">Pending</li>
+            </ul>
+        </span>
+        <button id="createbtn" type="button" style="margin-top: 40px;background-color: green;border: none;
+        font-size: 1rem;width: 130px;height: 60px;margin-left: 13px;border-radius: 20px;
+        cursor: pointer;">Create a New Task</button>
+    </div>
+    </header>
+
+    <div class="cards"><!-- Aqui Guarda os cards com o Conteudo-->
+
+        <div class="content" style="display: none;">
+            <span class="text">
+                <h1 id="title">TItle</h1>
+                <p id="Description">
+                    none
+                </p>
+                <h2 id="status">Status</h2>
+                <p id="whatstatus">Pending</p>
+            </span>
+            <span class="btns">
+                <input id="btnview" type="button" value="View">
+                <input id="btnupdate" type="button" value="Update Task">
+                <input id="btndelete" type="button" value="Delete">
+            </span> 
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
